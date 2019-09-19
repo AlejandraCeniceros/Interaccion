@@ -23,6 +23,12 @@ namespace Interaccion
         public MainWindow()
         {
             InitializeComponent();
+            
+            btnBoton.Click += BtnBoton_Click;
+        }
+
+        private void BtnBoton_Click(object sender, RoutedEventArgs e)
+        {
             lblHi.Text = "Bye";
             lblHi.FontSize = 30;
             lblHi.Foreground = Brushes.DarkViolet;
