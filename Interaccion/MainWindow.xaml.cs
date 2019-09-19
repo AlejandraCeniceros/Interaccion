@@ -32,7 +32,21 @@ namespace Interaccion
             lblHi.Text = "Bye";
             lblHi.FontSize = 30;
             lblHi.Foreground = Brushes.DarkViolet;
+        }
 
+        private void BtnBoton1_Click(object sender, RoutedEventArgs e)
+        {
+            lblHi.Text = "2do btn";
+            lblHi.FontSize = 30;
+            lblHi.Foreground = Brushes.DarkCyan;
+        }
+
+        private void BtnBoton2_Click(object sender, RoutedEventArgs e)
+        {
+            lblHi.Text = "3er Btn";
+            lblHi.FontSize = 30;
+            lblHi.Foreground = Brushes.DarkSalmon
+                ;
         }
     }
 }

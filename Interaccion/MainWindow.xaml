@@ -7,7 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBlock x:Name="lblHi" FontFamily="Garamond" FontSize="20"> Hi</TextBlock>
-        <Button x:Name="btnBoton" Width="100" Height="50" Margin="565,150,127,219" FontFamily="Garamond" FontSize="20">Botón</Button>
+        <TextBlock x:Name="lblHi" FontFamily="Garamond" FontSize="55"> Hi</TextBlock>
+        <Button x:Name="btnBoton" Width="100" Height="50" Margin="51,150,641,219" FontFamily="Garamond" FontSize="20">Botón</Button>
+        <Button x:Name="btnBoton1" Width="100" Height="50" Margin="186,150,506,219" FontFamily="Garamond" FontSize="20" Click="BtnBoton1_Click">Botón 2</Button>
+        <Button x:Name="btnBoton2" Width="100" Height="50" Margin="332,150,360,219" FontFamily="Garamond" FontSize="20" Click="BtnBoton2_Click" >Botón 3</Button>
+
     </Grid>
 </Window>
